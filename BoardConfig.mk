@@ -7,6 +7,8 @@
 # Inherit from sdm845-common
 -include device/xiaomi/sdm845-common/BoardConfigCommon.mk
 
+BUILD_BROKEN_VINTF_PRODUCT_COPY_FILES := true
+
 DEVICE_PATH := device/xiaomi/beryllium
 
 # Broken Rules
